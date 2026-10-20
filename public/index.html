@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hummman AI 검색 데모</title><link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script></head>
+<body><main>
+  <h1>ai 연동 검색창</h1>
+  <p>찾고 싶은 작업을 한국어로 입력하세요. 공개 프로젝트 설명을 바탕으로 최대 3개를 추천합니다.</p>
+  <p id="setup" role="status">설정을 확인하고 있습니다.</p>
+  <form id="search-form"><label for="query">검색창</label><textarea id="query" name="query" maxlength="500" rows="3" required placeholder="우리 프로젝트 관련된거 검색해보세요"></textarea><button id="submit" type="submit">검색</button></form>
+  <div id="examples" aria-label="예시 질문">
+    <button type="button">화장품</button>
+    <button type="button">기업 웹사이트찾아봐</button>
+    <button type="button">게임 회사 홈페이지</button>
+    <button type="button">디자인과 개발을 함께 한 프로젝트</button>
+  </div>
+  <p id="message" role="status" aria-live="polite"></p>
+  <section id="results" aria-label="검색 결과" aria-busy="false"></section>
+  <details><summary>공개 데이터 연결 확인</summary><p>AI를 호출하지 않고 실제 프로젝트 목록과 상세 링크를 확인합니다.</p><button id="load-data" type="button">프로젝트 목록 가져오기</button><p id="data-status" role="status"></p><ul id="catalog"></ul></details>
+  <p id="usage"></p>
+</main></body></html>

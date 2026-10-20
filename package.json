@@ -1,0 +1,17 @@
+{
+  "name": "hummman-ai-search",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch server.js",
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test",
+    "check:data": "node scripts/check-data.js"
+  },
+  "dependencies": {
+    "@prismicio/client": "^7.21.5",
+    "html-to-text": "^9.0.5"
+  }
+}

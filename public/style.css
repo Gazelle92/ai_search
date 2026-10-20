@@ -1,0 +1,6 @@
+body { font-family: system-ui, sans-serif; line-height: 1.6; margin: 0; color: #222; }
+main { max-width: 850px; padding: 24px; margin: auto; }
+label, textarea { display: block; } textarea { box-sizing: border-box; width: 100%; font: inherit; padding: 8px; }
+button { font: inherit; cursor: pointer; margin: 8px 8px 8px 0; padding: 6px 12px; } button:disabled { cursor: wait; }
+article { border: 1px solid #ccc; padding: 16px; margin: 16px 0; } article img { max-width: 320px; width: 100%; height: auto; }
+blockquote { margin: 12px 0; padding-left: 12px; border-left: 2px solid #ccc; } details { margin: 24px 0; } #usage, small { color: #555; }
