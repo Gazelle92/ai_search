@@ -22,7 +22,7 @@ const messages = {
   AI_ERROR: 'AI 응답을 처리하지 못했습니다. API 키·결제·모델 설정을 확인하거나 다시 시도하세요.',
 };
 
-export function createApp({ apiKey = process.env.GEMINI_API_KEY, model = process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite',
+export function createHandler({ apiKey = process.env.GEMINI_API_KEY, model = process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite',
   maxCalls = Number(process.env.MAX_CALLS || 30), loadProjects = getProjects, search = recommend } = {}) {
   if (!Number.isInteger(maxCalls) || maxCalls < 1) throw new Error('MAX_CALLS must be a positive integer');
   const stats = { calls: 0, completed: 0, failed: 0, inputTokens: 0, outputTokens: 0 };
@@ -30,7 +30,7 @@ export function createApp({ apiKey = process.env.GEMINI_API_KEY, model = process
   let busy = false;
   const json = (res, status, body) => { res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' }); res.end(JSON.stringify(body)); };
   const fail = (res, status, code) => json(res, status, { code, message: messages[code] });
-  return http.createServer(async (req, res) => {
+  return async (req, res) => {
     res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('Referrer-Policy', 'no-referrer');
     res.setHeader('Content-Security-Policy', "default-src 'self'; img-src https:; script-src 'self'; style-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
@@ -48,10 +48,14 @@ export function createApp({ apiKey = process.env.GEMINI_API_KEY, model = process
       }
       if (req.method !== 'POST' || path !== '/api/search') return json(res, 404, { message: '찾을 수 없습니다.' });
       // JSON-only same-origin requests prevent cross-site forms spending local API credits.
+      const protocol = process.env.VERCEL ? 'https' : 'http';
       if (req.headers['sec-fetch-site'] === 'cross-site' || !req.headers['content-type']?.startsWith('application/json') ||
-          (req.headers.origin && req.headers.origin !== `http://${req.headers.host}`)) return json(res, 403, { message: '허용되지 않은 요청입니다.' });
+          (req.headers.origin && req.headers.origin !== `${protocol}://${req.headers.host}`)) return json(res, 403, { message: '허용되지 않은 요청입니다.' });
       let raw = '', bytes = 0;
-      for await (const chunk of req) {
+      if (req.body !== undefined) {
+        raw = typeof req.body === 'string' ? req.body : JSON.stringify(req.body);
+        if (Buffer.byteLength(raw) > 4096) return fail(res, 413, 'INVALID_BODY');
+      } else for await (const chunk of req) {
         bytes += chunk.length;
         if (bytes > 4096) { fail(res, 413, 'INVALID_BODY'); return; }
         raw += chunk;
@@ -85,7 +89,11 @@ export function createApp({ apiKey = process.env.GEMINI_API_KEY, model = process
         }
       } finally { busy = false; }
     } catch { if (!res.headersSent) json(res, 500, { message: '요청 처리에 실패했습니다.' }); else res.end(); }
-  });
+  };
+}
+
+export function createApp(options) {
+  return http.createServer(createHandler(options));
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {

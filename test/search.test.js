@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { normalizeProjects, plainText } from '../lib/projects.js';
 import { validateResult, recommend } from '../lib/search.js';
-import { createApp } from '../server.js';
+import { createApp, createHandler } from '../server.js';
 
 const docs = [
   { id: 'low', data: { title: 'Low', order: '1' } },
@@ -52,6 +52,24 @@ async function withServer(options, callback) {
   finally { await new Promise(resolve => server.close(resolve)); }
 }
 const post = (url, query) => fetch(`${url}/api/search`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query }) });
+test('Vercel handler accepts HTTPS same-origin and parsed bodies, rejects foreign origins', async () => {
+  const previous = process.env.VERCEL;
+  process.env.VERCEL = '1';
+  try {
+    const handler = createHandler({ apiKey: 'test', loadProjects: async () => projects,
+      search: async () => ({ message: '확인 불가', matches: [] }) });
+    async function request(origin, body) {
+      let status, result;
+      await handler({ method: 'POST', url: '/api/search', body,
+        headers: { host: 'demo.vercel.app', origin, 'content-type': 'application/json' } },
+      { setHeader() {}, writeHead(code) { status = code; }, end(text) { result = JSON.parse(text); } });
+      return { status, result };
+    }
+    assert.equal((await request('https://demo.vercel.app', { query: '게임' })).status, 200);
+    assert.equal((await request('https://foreign.example', { query: '게임' })).status, 403);
+    assert.equal((await request('https://demo.vercel.app', { query: 'a'.repeat(5000) })).status, 413);
+  } finally { if (previous === undefined) delete process.env.VERCEL; else process.env.VERCEL = previous; }
+});
 test('missing key and invalid input never call AI; secrets and env are not served', async () => {
   await withServer({ apiKey: '', loadProjects: async () => projects, search: () => { throw new Error('must not run'); } }, async url => {
     assert.equal((await post(url, '게임')).status, 503);
