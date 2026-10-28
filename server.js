@@ -5,6 +5,21 @@ import { getProjects } from './lib/projects.js';
 import { recommend } from './lib/search.js';
 
 const assets = new Map([['/', ['index.html', 'text/html']], ['/app.js', ['app.js', 'text/javascript']], ['/style.css', ['style.css', 'text/css']]]);
+assets.set('/studio', ['studio.html', 'text/html']);
+assets.set('/studio.html', ['studio.html', 'text/html']);
+assets.set('/studio.css', ['studio.css', 'text/css']);
+assets.set('/studio.js', ['studio.js', 'text/javascript']);
+assets.set('/motion.js', ['motion.js', 'text/javascript']);
+assets.set('/motion.css', ['motion.css', 'text/css']);
+assets.set('/design-system.html', ['design-system.html', 'text/html']);
+assets.set('/design-system.css', ['design-system.css', 'text/css']);
+assets.set('/design-system.js', ['design-system.js', 'text/javascript']);
+assets.set('/design-tokens.css', ['design-tokens.css', 'text/css']);
+assets.set('/design-tokens.json', ['design-tokens.json', 'application/json']);
+for (const file of ['ttt.jpg', 'mucl.jpg', 'cosmax.jpg', 'tsf.jpg', 'chrome.svg', 'manrope.woff2']) {
+  const type = file.endsWith('.jpg') ? 'image/jpeg' : file.endsWith('.svg') ? 'image/svg+xml' : 'font/woff2';
+  assets.set(`/concept/${file}`, [`concept/${file}`, type]);
+}
 const messages = {
   KEY_MISSING: '서버의 .env에 GEMINI_API_KEY를 설정하고 다시 시작하세요.',
   DATA_ERROR: 'Prismic 프로젝트를 불러오지 못했습니다. 잠시 후 다시 시도하세요.',
@@ -33,7 +48,7 @@ export function createHandler({ apiKey = process.env.GEMINI_API_KEY, model = pro
   return async (req, res) => {
     res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('Referrer-Policy', 'no-referrer');
-    res.setHeader('Content-Security-Policy', "default-src 'self'; img-src https:; script-src 'self'; style-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
+    res.setHeader('Content-Security-Policy', "default-src 'self'; img-src 'self' https:; script-src 'self'; style-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
     try {
       const path = new URL(req.url, 'http://localhost').pathname;
       if (req.method === 'GET' && assets.has(path)) {

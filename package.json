@@ -8,7 +8,9 @@
     "dev": "node --env-file-if-exists=.env --watch server.js",
     "start": "node --env-file-if-exists=.env server.js",
     "test": "node --test",
-    "check:data": "node scripts/check-data.js"
+    "check:data": "node scripts/check-data.js",
+    "design:tokens": "node scripts/build-design-tokens.mjs",
+    "design:audit": "node scripts/audit-design.mjs"
   },
   "dependencies": {
     "@prismicio/client": "^7.21.5",

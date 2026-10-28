@@ -1,0 +1,5420 @@
+{
+  "method": "Source declaration inventory, not computed layout. Comments stripped; compiled CSS duplicates excluded. Frequency is evidence, not a recommendation.",
+  "projects": [
+    {
+      "project": "hummman_website",
+      "files": 7,
+      "declarations": 235,
+      "fontSizes": [
+        {
+          "value": "16px",
+          "count": 16,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 17
+            },
+            {
+              "file": "component/about/about.scss",
+              "line": 56
+            },
+            {
+              "file": "component/about/about.scss",
+              "line": 64
+            }
+          ]
+        },
+        {
+          "value": "12px",
+          "count": 8,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 29
+            },
+            {
+              "file": "component/about/about.scss",
+              "line": 50
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 175
+            }
+          ]
+        },
+        {
+          "value": "13px",
+          "count": 6,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 54
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 169
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 203
+            }
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 6,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 46
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 283
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 305
+            }
+          ]
+        },
+        {
+          "value": "14px",
+          "count": 5,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 41
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 48
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 218
+            }
+          ]
+        },
+        {
+          "value": "0",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 38
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 37
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 38
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 51
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 33
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 82
+            }
+          ]
+        },
+        {
+          "value": "24px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 95
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 14
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 20
+            }
+          ]
+        },
+        {
+          "value": "unset",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 42
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 57
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 310
+            }
+          ]
+        },
+        {
+          "value": "8px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 52
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 231
+            }
+          ]
+        },
+        {
+          "value": "80px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 142
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 26
+            }
+          ]
+        },
+        {
+          "value": "64px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 238
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 92
+            }
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 1
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 354
+            }
+          ]
+        },
+        {
+          "value": "70px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 23
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 27
+            }
+          ]
+        },
+        {
+          "value": "44px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 43
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 44
+            }
+          ]
+        },
+        {
+          "value": "4.44vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 55
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 56
+            }
+          ]
+        },
+        {
+          "value": "48px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 93
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 300
+            }
+          ]
+        },
+        {
+          "value": "11px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 178
+            }
+          ]
+        },
+        {
+          "value": "120px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 181
+            }
+          ]
+        },
+        {
+          "value": "54px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 193
+            }
+          ]
+        },
+        {
+          "value": "72px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 199
+            }
+          ]
+        },
+        {
+          "value": "20.7vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 243
+            }
+          ]
+        },
+        {
+          "value": "11.46vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 58
+            }
+          ]
+        },
+        {
+          "value": "10vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 59
+            }
+          ]
+        },
+        {
+          "value": "96px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 69
+            }
+          ]
+        },
+        {
+          "value": "32px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 355
+            }
+          ]
+        }
+      ],
+      "spacing": [
+        {
+          "value": "0",
+          "count": 19,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 48
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 1
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 1
+            }
+          ]
+        },
+        {
+          "value": "12px",
+          "count": 6,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 96
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 97
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 131
+            }
+          ]
+        },
+        {
+          "value": "4px",
+          "count": 5,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 11
+            },
+            {
+              "file": "component/about/about.scss",
+              "line": 69
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 41
+            }
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 5,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 52
+            },
+            {
+              "file": "component/about/about.scss",
+              "line": 72
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 305
+            }
+          ]
+        },
+        {
+          "value": "8px",
+          "count": 5,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 74
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 103
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 105
+            }
+          ]
+        },
+        {
+          "value": "25%",
+          "count": 4,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 52
+            },
+            {
+              "file": "component/about/about.scss",
+              "line": 72
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 11
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 4,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 174
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 202
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 236
+            }
+          ]
+        },
+        {
+          "value": "32px 16px 8px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 55
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 74
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 109
+            }
+          ]
+        },
+        {
+          "value": "20px 0 8px 20px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 207
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 212
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 217
+            }
+          ]
+        },
+        {
+          "value": "80px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 16
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 47
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 67
+            }
+          ]
+        },
+        {
+          "value": "0 80px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 38
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 61
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 91
+            }
+          ]
+        },
+        {
+          "value": "0 0 0 16px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 171
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 172
+            }
+          ]
+        },
+        {
+          "value": "60px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 37
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 68
+            }
+          ]
+        },
+        {
+          "value": "0 20px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 324
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 329
+            }
+          ]
+        },
+        {
+          "value": "180px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 48
+            }
+          ]
+        },
+        {
+          "value": "50vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 48
+            }
+          ]
+        },
+        {
+          "value": "140px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 52
+            }
+          ]
+        },
+        {
+          "value": "40px 0 32px 50%",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 60
+            }
+          ]
+        },
+        {
+          "value": "0 27px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 37
+            }
+          ]
+        },
+        {
+          "value": "4px 0 0 4px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 38
+            }
+          ]
+        },
+        {
+          "value": "71px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 64
+            }
+          ]
+        },
+        {
+          "value": "2px 0 0 4px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 145
+            }
+          ]
+        },
+        {
+          "value": "6px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 148
+            }
+          ]
+        },
+        {
+          "value": "0 4px 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 174
+            }
+          ]
+        },
+        {
+          "value": "200px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 50
+            }
+          ]
+        },
+        {
+          "value": "0 16px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 78
+            }
+          ]
+        },
+        {
+          "value": "32px 12px 16px 16px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 153
+            }
+          ]
+        },
+        {
+          "value": "0 4px 0 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 154
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 168
+            }
+          ]
+        },
+        {
+          "value": "60px 0 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 197
+            }
+          ]
+        },
+        {
+          "value": "32px 16px 16px 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 232
+            }
+          ]
+        },
+        {
+          "value": "7px 16px 5px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 31
+            }
+          ]
+        },
+        {
+          "value": "unset",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 53
+            }
+          ]
+        },
+        {
+          "value": "40px 0 2.22vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 56
+            }
+          ]
+        },
+        {
+          "value": "40px 0 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 60
+            }
+          ]
+        },
+        {
+          "value": "12px 7px 12px 6px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 60
+            }
+          ]
+        },
+        {
+          "value": "00px 0 8px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 2
+            }
+          ]
+        },
+        {
+          "value": "0 6px 0px 0px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 12
+            }
+          ]
+        },
+        {
+          "value": "116px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 12
+            }
+          ]
+        },
+        {
+          "value": "7px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 16
+            }
+          ]
+        },
+        {
+          "value": "6px 0 6px 12px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 18
+            }
+          ]
+        },
+        {
+          "value": "calc(100% / 4)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 36
+            }
+          ]
+        },
+        {
+          "value": "116px 00px 56px 00px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 80
+            }
+          ]
+        },
+        {
+          "value": "40px 80px 120px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 81
+            }
+          ]
+        },
+        {
+          "value": "120px 128px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 95
+            }
+          ]
+        },
+        {
+          "value": "8vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 95
+            }
+          ]
+        },
+        {
+          "value": "56.25%",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 99
+            }
+          ]
+        },
+        {
+          "value": "24px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 103
+            }
+          ]
+        },
+        {
+          "value": "2px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 105
+            }
+          ]
+        },
+        {
+          "value": "0 80px 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 126
+            }
+          ]
+        },
+        {
+          "value": "21px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 131
+            }
+          ]
+        },
+        {
+          "value": "52px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 160
+            }
+          ]
+        },
+        {
+          "value": "0!important",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 165
+            }
+          ]
+        },
+        {
+          "value": "2rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 167
+            }
+          ]
+        },
+        {
+          "value": "8rem 1rem 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 168
+            }
+          ]
+        },
+        {
+          "value": "00px 10px 74px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 276
+            }
+          ]
+        },
+        {
+          "value": "40px 10px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 279
+            }
+          ]
+        },
+        {
+          "value": "0 00px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 279
+            }
+          ]
+        },
+        {
+          "value": "0 30px 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 280
+            }
+          ]
+        },
+        {
+          "value": "32px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 299
+            }
+          ]
+        },
+        {
+          "value": "50px 00px 200px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 303
+            }
+          ]
+        },
+        {
+          "value": "0 20px 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 304
+            }
+          ]
+        },
+        {
+          "value": "60px 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 316
+            }
+          ]
+        },
+        {
+          "value": "00px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 326
+            }
+          ]
+        },
+        {
+          "value": "0 0 60px!important",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 335
+            }
+          ]
+        },
+        {
+          "value": "18px 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 341
+            }
+          ]
+        },
+        {
+          "value": "80px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 352
+            }
+          ]
+        },
+        {
+          "value": "0px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/work/works.scss",
+              "line": 367
+            }
+          ]
+        }
+      ],
+      "breakpoints": [
+        {
+          "value": "1024px",
+          "count": 8,
+          "examples": [
+            {
+              "file": "component/about/about.scss",
+              "line": 43
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 16
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 110
+            }
+          ]
+        },
+        {
+          "value": "500px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 241
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 52
+            }
+          ]
+        },
+        {
+          "value": "1025px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 98
+            }
+          ]
+        },
+        {
+          "value": "767px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/Main/main.scss",
+              "line": 49
+            }
+          ]
+        }
+      ],
+      "families": [
+        {
+          "value": "'GT Alpina Trial2'",
+          "count": 7,
+          "examples": [
+            {
+              "file": "App.css",
+              "line": 40
+            },
+            {
+              "file": "App.css",
+              "line": 45
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 1
+            }
+          ]
+        },
+        {
+          "value": "\"GT Pressura Mono Trial\"",
+          "count": 7,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 42
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 51
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 149
+            }
+          ]
+        },
+        {
+          "value": "'GT Pressura Mono Trial'",
+          "count": 4,
+          "examples": [
+            {
+              "file": "App.css",
+              "line": 8
+            },
+            {
+              "file": "App.css",
+              "line": 13
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 31
+            }
+          ]
+        },
+        {
+          "value": "'GT Alpina Trial'",
+          "count": 4,
+          "examples": [
+            {
+              "file": "App.css",
+              "line": 29
+            },
+            {
+              "file": "App.css",
+              "line": 34
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 15
+            }
+          ]
+        },
+        {
+          "value": "'Pretendard-Regular'",
+          "count": 3,
+          "examples": [
+            {
+              "file": "App.css",
+              "line": 2
+            },
+            {
+              "file": "component/common/common.scss",
+              "line": 1
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 158
+            }
+          ]
+        },
+        {
+          "value": "'GT Alpina Trial3'",
+          "count": 3,
+          "examples": [
+            {
+              "file": "App.css",
+              "line": 50
+            },
+            {
+              "file": "component/Main/main.scss",
+              "line": 30
+            },
+            {
+              "file": "component/work/works.scss",
+              "line": 93
+            }
+          ]
+        },
+        {
+          "value": "\"GT Alpina Trial2\"",
+          "count": 3,
+          "examples": [
+            {
+              "file": "component/contact/contact.scss",
+              "line": 142
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 181
+            },
+            {
+              "file": "component/contact/contact.scss",
+              "line": 193
+            }
+          ]
+        },
+        {
+          "value": "'GT Alpina Standard'",
+          "count": 2,
+          "examples": [
+            {
+              "file": "App.css",
+              "line": 18
+            },
+            {
+              "file": "App.css",
+              "line": 23
+            }
+          ]
+        },
+        {
+          "value": "\"GT Alpina Trial3\"",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 95
+            }
+          ]
+        },
+        {
+          "value": "\"Pretendard Variable\"",
+          "count": 1,
+          "examples": [
+            {
+              "file": "component/common/common.scss",
+              "line": 145
+            }
+          ]
+        },
+        {
+          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "index.css",
+              "line": 3
+            }
+          ]
+        },
+        {
+          "value": "source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace",
+          "count": 1,
+          "examples": [
+            {
+              "file": "index.css",
+              "line": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "template_1",
+      "files": 11,
+      "declarations": 479,
+      "fontSizes": [
+        {
+          "value": "3.056vw",
+          "count": 23,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 158
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 169
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 181
+            }
+          ]
+        },
+        {
+          "value": "6.667vw",
+          "count": 13,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 168
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 179
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 187
+            }
+          ]
+        },
+        {
+          "value": "0.962vw",
+          "count": 9,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 62
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 64
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 94
+            }
+          ]
+        },
+        {
+          "value": "15px",
+          "count": 7,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 108
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 15
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 35
+            }
+          ]
+        },
+        {
+          "value": "0.96vw",
+          "count": 6,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 53
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 63
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 77
+            }
+          ]
+        },
+        {
+          "value": "11px",
+          "count": 5,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 75
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 118
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 177
+            }
+          ]
+        },
+        {
+          "value": "6.15vw",
+          "count": 4,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 52
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 74
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 57
+            }
+          ]
+        },
+        {
+          "value": "11.111vw",
+          "count": 4,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 154
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 176
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 144
+            }
+          ]
+        },
+        {
+          "value": "2.222vw",
+          "count": 4,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 189
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 305
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 148
+            }
+          ]
+        },
+        {
+          "value": "17.778vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 178
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 346
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 111
+            }
+          ]
+        },
+        {
+          "value": "6.154vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 61
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 8
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 59
+            }
+          ]
+        },
+        {
+          "value": "1.282vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 70
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 88
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 84
+            }
+          ]
+        },
+        {
+          "value": "3.889vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 185
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 193
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 161
+            }
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 22
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 115
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 176
+            }
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 63
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 82
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 202
+            }
+          ]
+        },
+        {
+          "value": "14px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 83
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 85
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 137
+            }
+          ]
+        },
+        {
+          "value": "48px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 189
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 192
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 112
+            }
+          ]
+        },
+        {
+          "value": "3.333vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 359
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 34
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 122
+            }
+          ]
+        },
+        {
+          "value": "3.08vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 62
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 84
+            }
+          ]
+        },
+        {
+          "value": "2.31vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 75
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 87
+            }
+          ]
+        },
+        {
+          "value": "5.556vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 190
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 123
+            }
+          ]
+        },
+        {
+          "value": "0.769vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 77
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 76
+            }
+          ]
+        },
+        {
+          "value": "12px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 23
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 204
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 43
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 45
+            }
+          ]
+        },
+        {
+          "value": "3.077vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 29
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 67
+            }
+          ]
+        },
+        {
+          "value": "2.5vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 63
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 68
+            }
+          ]
+        },
+        {
+          "value": "0.833vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 79
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 85
+            }
+          ]
+        },
+        {
+          "value": "2.778vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 159
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 162
+            }
+          ]
+        },
+        {
+          "value": "1.0417vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 28
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 35
+            }
+          ]
+        },
+        {
+          "value": "24px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 183
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 194
+            }
+          ]
+        },
+        {
+          "value": "1.538vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 118
+            }
+          ]
+        },
+        {
+          "value": "4.444vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 211
+            }
+          ]
+        },
+        {
+          "value": "18px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 230
+            }
+          ]
+        },
+        {
+          "value": "13px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 42
+            }
+          ]
+        },
+        {
+          "value": "8px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 59
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 62
+            }
+          ]
+        },
+        {
+          "value": "0.897vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 212
+            }
+          ]
+        },
+        {
+          "value": "36px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 263
+            }
+          ]
+        },
+        {
+          "value": "1.026vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 88
+            }
+          ]
+        },
+        {
+          "value": "17.949vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 99
+            }
+          ]
+        },
+        {
+          "value": "4.167vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 171
+            }
+          ]
+        },
+        {
+          "value": "6.6667vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 27
+            }
+          ]
+        },
+        {
+          "value": "var(--swiper-navigation-size)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 314
+            }
+          ]
+        },
+        {
+          "value": "0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 382
+            }
+          ]
+        }
+      ],
+      "spacing": [
+        {
+          "value": "0",
+          "count": 24,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 175
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 186
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 206
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 19,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 102
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 21
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 63
+            }
+          ]
+        },
+        {
+          "value": "5.556vw",
+          "count": 14,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 154
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 154
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 190
+            }
+          ]
+        },
+        {
+          "value": "3.333vw",
+          "count": 14,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 176
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 194
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 318
+            }
+          ]
+        },
+        {
+          "value": "12px",
+          "count": 8,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 107
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 108
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 14
+            }
+          ]
+        },
+        {
+          "value": "8px",
+          "count": 8,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 24
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 64
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 81
+            }
+          ]
+        },
+        {
+          "value": "2.564vw",
+          "count": 7,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 29
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 42
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 46
+            }
+          ]
+        },
+        {
+          "value": "11.111vw",
+          "count": 6,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 163
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 188
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 318
+            }
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 6,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 23
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 33
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 38
+            }
+          ]
+        },
+        {
+          "value": "auto",
+          "count": 6,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 31
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 71
+            },
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 31
+            }
+          ]
+        },
+        {
+          "value": "16.667vw",
+          "count": 5,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 175
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 186
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 171
+            }
+          ]
+        },
+        {
+          "value": "1.282vw",
+          "count": 5,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 31
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 52
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 88
+            }
+          ]
+        },
+        {
+          "value": "4.444vw",
+          "count": 5,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 313
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 313
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 144
+            }
+          ]
+        },
+        {
+          "value": "1.28vw",
+          "count": 4,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 50
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 72
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 87
+            }
+          ]
+        },
+        {
+          "value": "22.222vw",
+          "count": 4,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 162
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 311
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 274
+            }
+          ]
+        },
+        {
+          "value": "1.795vw",
+          "count": 4,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 62
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 58
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 67
+            }
+          ]
+        },
+        {
+          "value": "3.846vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 69
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 85
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 92
+            }
+          ]
+        },
+        {
+          "value": "0.769vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 72
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 93
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 60
+            }
+          ]
+        },
+        {
+          "value": "1.111vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 205
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 302
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 314
+            }
+          ]
+        },
+        {
+          "value": "2px 8px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 59
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 86
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 160
+            }
+          ]
+        },
+        {
+          "value": "80px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 192
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 114
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 307
+            }
+          ]
+        },
+        {
+          "value": "130px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 57
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 64
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 61
+            }
+          ]
+        },
+        {
+          "value": "3.077vw 0 2.051vw 2.564vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 62
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 67
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 66
+            }
+          ]
+        },
+        {
+          "value": "0vw 0 2.564vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 66
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 71
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 70
+            }
+          ]
+        },
+        {
+          "value": "14.103vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 67
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 72
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 71
+            }
+          ]
+        },
+        {
+          "value": "2.051vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 67
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 72
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 71
+            }
+          ]
+        },
+        {
+          "value": "6vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 70
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 75
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 74
+            }
+          ]
+        },
+        {
+          "value": "calc((100% / 12) * 1)",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 58
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 4
+            }
+          ]
+        },
+        {
+          "value": "2.56vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 59
+            },
+            {
+              "file": "app/company/company.scss",
+              "line": 85
+            }
+          ]
+        },
+        {
+          "value": "22.222vw 5.556vw 33.333vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 162
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 95
+            }
+          ]
+        },
+        {
+          "value": "5.556vw 0 6.667vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 168
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 101
+            }
+          ]
+        },
+        {
+          "value": "16.667vw 0",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 173
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 106
+            }
+          ]
+        },
+        {
+          "value": "33.333vw 5.556vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 185
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 118
+            }
+          ]
+        },
+        {
+          "value": "2.222vw 0 0 5vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 191
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 124
+            }
+          ]
+        },
+        {
+          "value": "0.513vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 103
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 77
+            }
+          ]
+        },
+        {
+          "value": "7.778vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 184
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 184
+            }
+          ]
+        },
+        {
+          "value": "2.222vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 204
+            },
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 147
+            }
+          ]
+        },
+        {
+          "value": "0 auto",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 230
+            },
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 608
+            }
+          ]
+        },
+        {
+          "value": "28px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 9
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 45
+            }
+          ]
+        },
+        {
+          "value": "8px 20px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 45
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 85
+            }
+          ]
+        },
+        {
+          "value": "32px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 73
+            },
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 183
+            }
+          ]
+        },
+        {
+          "value": "1.538vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 9
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 9
+            }
+          ]
+        },
+        {
+          "value": "5.556vw 4.444vw 6.667vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 309
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 128
+            }
+          ]
+        },
+        {
+          "value": "0 0 8.889vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 312
+            },
+            {
+              "file": "app/services/services.scss",
+              "line": 131
+            }
+          ]
+        },
+        {
+          "value": "calc((100% / 14) * 2)!important",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 334
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 336
+            }
+          ]
+        },
+        {
+          "value": "calc((100% / 14) * 8)!important",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 335
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 337
+            }
+          ]
+        },
+        {
+          "value": "0 0 40px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/services/services.scss",
+              "line": 66
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 65
+            }
+          ]
+        },
+        {
+          "value": "80px 40px 00px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/services/services.scss",
+              "line": 76
+            },
+            {
+              "file": "app/services_save/services.scss",
+              "line": 75
+            }
+          ]
+        },
+        {
+          "value": "-21px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 201
+            },
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 202
+            }
+          ]
+        },
+        {
+          "value": "12.82vw 60px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 57
+            }
+          ]
+        },
+        {
+          "value": "7.69vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 57
+            }
+          ]
+        },
+        {
+          "value": "1.28vw 0 2.56vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 62
+            }
+          ]
+        },
+        {
+          "value": "7.05vw 00px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 69
+            }
+          ]
+        },
+        {
+          "value": "0 8.33vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 71
+            }
+          ]
+        },
+        {
+          "value": "0 60px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 82
+            }
+          ]
+        },
+        {
+          "value": "13.46vw 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 83
+            }
+          ]
+        },
+        {
+          "value": "0.77vw 0 0 1.54vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 91
+            }
+          ]
+        },
+        {
+          "value": "-300px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/components/common/loading.scss",
+              "line": 8
+            }
+          ]
+        },
+        {
+          "value": "146px 60px 84px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 57
+            }
+          ]
+        },
+        {
+          "value": "3.846vw 0 5.128vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 59
+            }
+          ]
+        },
+        {
+          "value": "0 calc(100% / 12) 2.051vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 60
+            }
+          ]
+        },
+        {
+          "value": "0.513vw 0.769vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 64
+            }
+          ]
+        },
+        {
+          "value": "7.692vw calc(100% / 12) 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 68
+            }
+          ]
+        },
+        {
+          "value": "5.128vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 69
+            }
+          ]
+        },
+        {
+          "value": "1.410vw 0.513vw 1.410vw 2.051vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 93
+            }
+          ]
+        },
+        {
+          "value": "1.923vw calc(100% / 12) 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 101
+            }
+          ]
+        },
+        {
+          "value": "0.513vw 1.923vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 103
+            }
+          ]
+        },
+        {
+          "value": "0.833vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 109
+            }
+          ]
+        },
+        {
+          "value": "25.556vw 20px 7.222vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 173
+            }
+          ]
+        },
+        {
+          "value": "11.111vw 0 26.111vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 174
+            }
+          ]
+        },
+        {
+          "value": "0 20px 9.56vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 175
+            }
+          ]
+        },
+        {
+          "value": "5.556vw 0 11.111vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 177
+            }
+          ]
+        },
+        {
+          "value": "1.944vw 3.333vw 2.5vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 179
+            }
+          ]
+        },
+        {
+          "value": "22.222vw 20px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 183
+            }
+          ]
+        },
+        {
+          "value": "4.444vw 2.222vw 4.444vw 4.444vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 194
+            }
+          ]
+        },
+        {
+          "value": "4.444vw 5.556vw 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 200
+            }
+          ]
+        },
+        {
+          "value": "6.1vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 201
+            }
+          ]
+        },
+        {
+          "value": "1.4vw 4.444vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 202
+            }
+          ]
+        },
+        {
+          "value": "1.667vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/contact/contact.scss",
+              "line": 202
+            }
+          ]
+        },
+        {
+          "value": "260px 60px 110px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 4
+            }
+          ]
+        },
+        {
+          "value": "15px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 14
+            }
+          ]
+        },
+        {
+          "value": "4px 8px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 15
+            }
+          ]
+        },
+        {
+          "value": "60px 0 80px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 31
+            }
+          ]
+        },
+        {
+          "value": "164px 20px 80px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 56
+            }
+          ]
+        },
+        {
+          "value": "13px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 61
+            }
+          ]
+        },
+        {
+          "value": "40px 0 60px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 71
+            }
+          ]
+        },
+        {
+          "value": "74px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 78
+            }
+          ]
+        },
+        {
+          "value": "16px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 81
+            }
+          ]
+        },
+        {
+          "value": "0px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 85
+            }
+          ]
+        },
+        {
+          "value": "52px 60px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 103
+            }
+          ]
+        },
+        {
+          "value": "14px 16px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 104
+            }
+          ]
+        },
+        {
+          "value": "6px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 130
+            }
+          ]
+        },
+        {
+          "value": "20px 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 130
+            }
+          ]
+        },
+        {
+          "value": "2px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 131
+            }
+          ]
+        },
+        {
+          "value": "20px 20px 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 187
+            }
+          ]
+        },
+        {
+          "value": "0 40px 180px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 188
+            }
+          ]
+        },
+        {
+          "value": "47px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 189
+            }
+          ]
+        },
+        {
+          "value": "70px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 190
+            }
+          ]
+        },
+        {
+          "value": "0.256vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 209
+            }
+          ]
+        },
+        {
+          "value": "0.4vw 0.769vw 0.46vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 212
+            }
+          ]
+        },
+        {
+          "value": "24px 20px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 242
+            }
+          ]
+        },
+        {
+          "value": "14px 12px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 243
+            }
+          ]
+        },
+        {
+          "value": "4px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 251
+            }
+          ]
+        },
+        {
+          "value": "160px 0 0 48px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 261
+            }
+          ]
+        },
+        {
+          "value": "1.111vw 1.944vw 1.111vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 305
+            }
+          ]
+        },
+        {
+          "value": "24px 8px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 308
+            }
+          ]
+        },
+        {
+          "value": "5.556vw 5.556vw 16.667vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 309
+            }
+          ]
+        },
+        {
+          "value": "0 60px 60px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 56
+            }
+          ]
+        },
+        {
+          "value": "0 0 5.641vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 61
+            }
+          ]
+        },
+        {
+          "value": "0 0 10.256vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 74
+            }
+          ]
+        },
+        {
+          "value": "0.513vw 0.769vw 0.513vw 1.795vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 88
+            }
+          ]
+        },
+        {
+          "value": "20px 0 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 112
+            }
+          ]
+        },
+        {
+          "value": "0 20px 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 262
+            }
+          ]
+        },
+        {
+          "value": "6.667vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 276
+            }
+          ]
+        },
+        {
+          "value": "8.889vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 279
+            }
+          ]
+        },
+        {
+          "value": "0 20px 11.111vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 282
+            }
+          ]
+        },
+        {
+          "value": "calc((100% / 12) * 4)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 286
+            }
+          ]
+        },
+        {
+          "value": "11.111vw 20px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 290
+            }
+          ]
+        },
+        {
+          "value": "calc((100% / 12) * 5)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 291
+            }
+          ]
+        },
+        {
+          "value": "calc((100% / 12) * 6)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 294
+            }
+          ]
+        },
+        {
+          "value": "22.222vw 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 306
+            }
+          ]
+        },
+        {
+          "value": "0 0 31.944vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 308
+            }
+          ]
+        },
+        {
+          "value": "22.222vw 0 35vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 323
+            }
+          ]
+        },
+        {
+          "value": "1.111vw 2.222vw 1.111vw 5.556vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 338
+            }
+          ]
+        },
+        {
+          "value": "5.556vw auto 8.889vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/main/main.scss",
+              "line": 356
+            }
+          ]
+        },
+        {
+          "value": "17.949vw 60px 7.692vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 57
+            }
+          ]
+        },
+        {
+          "value": "0.962vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 60
+            }
+          ]
+        },
+        {
+          "value": "0.256vw 0.513vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 61
+            }
+          ]
+        },
+        {
+          "value": "2.564vw 0 3.846vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 70
+            }
+          ]
+        },
+        {
+          "value": "1.282vw 1.282vw 2.564vw 1.026vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 72
+            }
+          ]
+        },
+        {
+          "value": "0.128vw 0.513vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 79
+            }
+          ]
+        },
+        {
+          "value": "1.282vw 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 79
+            }
+          ]
+        },
+        {
+          "value": "0.321vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 94
+            }
+          ]
+        },
+        {
+          "value": "44.444vw 20px 22.222vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 141
+            }
+          ]
+        },
+        {
+          "value": "10vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 143
+            }
+          ]
+        },
+        {
+          "value": "1.111vw 2.222vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 148
+            }
+          ]
+        },
+        {
+          "value": "4.444vw 4.444vw 5.556vw 4.444vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 157
+            }
+          ]
+        },
+        {
+          "value": "4.444vw 0 5.556vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/newsroom/newsroom.scss",
+              "line": 160
+            }
+          ]
+        },
+        {
+          "value": "0 40px 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services/services.scss",
+              "line": 63
+            }
+          ]
+        },
+        {
+          "value": "40px 12px 12px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services/services.scss",
+              "line": 123
+            }
+          ]
+        },
+        {
+          "value": "0 0 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services/services.scss",
+              "line": 127
+            }
+          ]
+        },
+        {
+          "value": "0 3.333vw 3.333vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services/services.scss",
+              "line": 137
+            }
+          ]
+        },
+        {
+          "value": "2.7778vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 27
+            }
+          ]
+        },
+        {
+          "value": "310px 0px 0px 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 32
+            }
+          ]
+        },
+        {
+          "value": "0.8333vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 33
+            }
+          ]
+        },
+        {
+          "value": "0 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 86
+            }
+          ]
+        },
+        {
+          "value": "1.3889vw 0 2.7778vw 4.8611vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 119
+            }
+          ]
+        },
+        {
+          "value": "8px 18px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 137
+            }
+          ]
+        },
+        {
+          "value": "164px 20px 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 182
+            }
+          ]
+        },
+        {
+          "value": "20px 12px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 190
+            }
+          ]
+        },
+        {
+          "value": "16px 0 20px 16px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/services-2.scss",
+              "line": 192
+            }
+          ]
+        },
+        {
+          "value": "calc(0px - (var(--swiper-navigation-size) / 2))",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 262
+            }
+          ]
+        },
+        {
+          "value": "var(--swiper-pagination-bullet-vertical-gap, 6px) 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 441
+            }
+          ]
+        },
+        {
+          "value": "0 var(--swiper-pagination-bullet-horizontal-gap, 4px)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 458
+            }
+          ]
+        },
+        {
+          "value": "0 40px 40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services_save/services.scss",
+              "line": 60
+            }
+          ]
+        }
+      ],
+      "breakpoints": [
+        {
+          "value": "1024px",
+          "count": 9,
+          "examples": [
+            {
+              "file": "app/company/company.scss",
+              "line": 149
+            },
+            {
+              "file": "app/contact/contact.scss",
+              "line": 172
+            },
+            {
+              "file": "app/detail/detail.scss",
+              "line": 54
+            }
+          ]
+        },
+        {
+          "value": "1025px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 237
+            }
+          ]
+        }
+      ],
+      "families": [
+        {
+          "value": "'Pretendard'",
+          "count": 10,
+          "examples": [
+            {
+              "file": "app/detail/detail.scss",
+              "line": 71
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 6
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 13
+            }
+          ]
+        },
+        {
+          "value": "'Barlow'",
+          "count": 3,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 103
+            },
+            {
+              "file": "app/globals.scss",
+              "line": 212
+            },
+            {
+              "file": "app/main/main.scss",
+              "line": 115
+            }
+          ]
+        },
+        {
+          "value": "Helvetica, Arial, sans-serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/components/common/loading.scss",
+              "line": 22
+            }
+          ]
+        },
+        {
+          "value": "'Barlow', 'Pretendard', sans-serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/globals.scss",
+              "line": 92
+            }
+          ]
+        },
+        {
+          "value": "'swiper-icons'",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 15
+            }
+          ]
+        },
+        {
+          "value": "swiper-icons",
+          "count": 1,
+          "examples": [
+            {
+              "file": "app/services-2/swiper.scss",
+              "line": 313
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project": "hummman_intro",
+      "files": 3,
+      "declarations": 211,
+      "fontSizes": [
+        {
+          "value": "12px",
+          "count": 6,
+          "examples": [
+            {
+              "file": "base2.css",
+              "line": 116
+            },
+            {
+              "file": "test2.css",
+              "line": 754
+            },
+            {
+              "file": "test2.css",
+              "line": 774
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 5,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 133
+            },
+            {
+              "file": "base.css",
+              "line": 564
+            },
+            {
+              "file": "base2.css",
+              "line": 8
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 5,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 430
+            },
+            {
+              "file": "base.css",
+              "line": 528
+            },
+            {
+              "file": "test2.css",
+              "line": 552
+            }
+          ]
+        },
+        {
+          "value": "1.2821vw",
+          "count": 4,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 269
+            },
+            {
+              "file": "test2.css",
+              "line": 274
+            },
+            {
+              "file": "test2.css",
+              "line": 410
+            }
+          ]
+        },
+        {
+          "value": "14px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 167
+            },
+            {
+              "file": "test2.css",
+              "line": 183
+            },
+            {
+              "file": "test2.css",
+              "line": 778
+            }
+          ]
+        },
+        {
+          "value": "12.5vw",
+          "count": 3,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 364
+            },
+            {
+              "file": "test2.css",
+              "line": 529
+            },
+            {
+              "file": "test2.css",
+              "line": 546
+            }
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 770
+            },
+            {
+              "file": "test2.css",
+              "line": 782
+            },
+            {
+              "file": "test2.css",
+              "line": 794
+            }
+          ]
+        },
+        {
+          "value": "inherit",
+          "count": 2,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 303
+            },
+            {
+              "file": "base2.css",
+              "line": 149
+            }
+          ]
+        },
+        {
+          "value": "80px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 93
+            },
+            {
+              "file": "test2.css",
+              "line": 620
+            }
+          ]
+        },
+        {
+          "value": "13px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 152
+            },
+            {
+              "file": "test2.css",
+              "line": 153
+            }
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 769
+            },
+            {
+              "file": "test2.css",
+              "line": 781
+            }
+          ]
+        },
+        {
+          "value": "0.85rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 263
+            }
+          ]
+        },
+        {
+          "value": "clamp(2rem,8vw,5rem)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 347
+            }
+          ]
+        },
+        {
+          "value": "clamp(1.5rem,20vw,8rem)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 353
+            }
+          ]
+        },
+        {
+          "value": "1.5rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 398
+            }
+          ]
+        },
+        {
+          "value": "clamp(2rem,7vw,3.25rem)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 412
+            }
+          ]
+        },
+        {
+          "value": "22px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 450
+            }
+          ]
+        },
+        {
+          "value": "0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 578
+            }
+          ]
+        },
+        {
+          "value": "clamp(2rem, 6vw, 8rem)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base2.css",
+              "line": 175
+            }
+          ]
+        },
+        {
+          "value": "clamp(2rem,20vw,22rem)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base2.css",
+              "line": 314
+            }
+          ]
+        },
+        {
+          "value": "1.026vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 36
+            }
+          ]
+        },
+        {
+          "value": "8.205vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 37
+            }
+          ]
+        },
+        {
+          "value": "1.282vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 38
+            }
+          ]
+        },
+        {
+          "value": "100px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 87
+            }
+          ]
+        },
+        {
+          "value": ".8rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 206
+            }
+          ]
+        },
+        {
+          "value": "1.0256vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 283
+            }
+          ]
+        },
+        {
+          "value": "8.2051vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 394
+            }
+          ]
+        },
+        {
+          "value": "1.25rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 439
+            }
+          ]
+        },
+        {
+          "value": "3vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 614
+            }
+          ]
+        },
+        {
+          "value": "2.3vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 618
+            }
+          ]
+        },
+        {
+          "value": "clamp(2rem, 10vw, 3rem)",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 662
+            }
+          ]
+        },
+        {
+          "value": "42px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 677
+            }
+          ]
+        },
+        {
+          "value": "6.0vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 706
+            }
+          ]
+        },
+        {
+          "value": "1vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 715
+            }
+          ]
+        },
+        {
+          "value": "5vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 742
+            }
+          ]
+        },
+        {
+          "value": "24px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 753
+            }
+          ]
+        },
+        {
+          "value": "11px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 771
+            }
+          ]
+        },
+        {
+          "value": "18px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 792
+            }
+          ]
+        }
+      ],
+      "spacing": [
+        {
+          "value": "0",
+          "count": 19,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 150
+            },
+            {
+              "file": "base.css",
+              "line": 232
+            },
+            {
+              "file": "base.css",
+              "line": 233
+            }
+          ]
+        },
+        {
+          "value": "4vw",
+          "count": 7,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 336
+            },
+            {
+              "file": "test2.css",
+              "line": 360
+            },
+            {
+              "file": "test2.css",
+              "line": 361
+            }
+          ]
+        },
+        {
+          "value": "1rem",
+          "count": 5,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 252
+            },
+            {
+              "file": "base.css",
+              "line": 362
+            },
+            {
+              "file": "base.css",
+              "line": 569
+            }
+          ]
+        },
+        {
+          "value": "2rem",
+          "count": 5,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 381
+            },
+            {
+              "file": "base.css",
+              "line": 505
+            },
+            {
+              "file": "base2.css",
+              "line": 121
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 4,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 469
+            },
+            {
+              "file": "test2.css",
+              "line": 555
+            },
+            {
+              "file": "test2.css",
+              "line": 774
+            }
+          ]
+        },
+        {
+          "value": "-30px 0 0 -30px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 180
+            },
+            {
+              "file": "base2.css",
+              "line": 54
+            }
+          ]
+        },
+        {
+          "value": "10vw",
+          "count": 2,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 475
+            },
+            {
+              "file": "test2.css",
+              "line": 737
+            }
+          ]
+        },
+        {
+          "value": "auto",
+          "count": 2,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 537
+            },
+            {
+              "file": "test2.css",
+              "line": 300
+            }
+          ]
+        },
+        {
+          "value": ".25rem",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 194
+            },
+            {
+              "file": "test2.css",
+              "line": 195
+            }
+          ]
+        },
+        {
+          "value": "var(--work-video-gap)",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 249
+            },
+            {
+              "file": "test2.css",
+              "line": 250
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 318
+            },
+            {
+              "file": "test2.css",
+              "line": 319
+            }
+          ]
+        },
+        {
+          "value": "20svh",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 634
+            },
+            {
+              "file": "test2.css",
+              "line": 776
+            }
+          ]
+        },
+        {
+          "value": "100svh",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 639
+            },
+            {
+              "file": "test2.css",
+              "line": 776
+            }
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 753
+            },
+            {
+              "file": "test2.css",
+              "line": 754
+            }
+          ]
+        },
+        {
+          "value": "2vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 143
+            }
+          ]
+        },
+        {
+          "value": "0.5rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 256
+            }
+          ]
+        },
+        {
+          "value": "0.15rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 312
+            }
+          ]
+        },
+        {
+          "value": "15vh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 341
+            }
+          ]
+        },
+        {
+          "value": "0 auto",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 355
+            }
+          ]
+        },
+        {
+          "value": "4rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 361
+            }
+          ]
+        },
+        {
+          "value": "5vh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 379
+            }
+          ]
+        },
+        {
+          "value": "50vh auto 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 400
+            }
+          ]
+        },
+        {
+          "value": "50vh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 401
+            }
+          ]
+        },
+        {
+          "value": "100vh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 417
+            }
+          ]
+        },
+        {
+          "value": "30vw 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 452
+            }
+          ]
+        },
+        {
+          "value": "40vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 453
+            }
+          ]
+        },
+        {
+          "value": "56px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 527
+            }
+          ]
+        },
+        {
+          "value": "4",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 577
+            }
+          ]
+        },
+        {
+          "value": "40vh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base2.css",
+              "line": 134
+            }
+          ]
+        },
+        {
+          "value": "80vh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base2.css",
+              "line": 171
+            }
+          ]
+        },
+        {
+          "value": "60vh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base2.css",
+              "line": 201
+            }
+          ]
+        },
+        {
+          "value": "2rem 3rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base2.css",
+              "line": 395
+            }
+          ]
+        },
+        {
+          "value": "1.282vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 37
+            }
+          ]
+        },
+        {
+          "value": "2.564vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 38
+            }
+          ]
+        },
+        {
+          "value": "76px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 153
+            }
+          ]
+        },
+        {
+          "value": ".5rem .75rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 204
+            }
+          ]
+        },
+        {
+          "value": "2.5vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 245
+            }
+          ]
+        },
+        {
+          "value": "2.5641vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 248
+            }
+          ]
+        },
+        {
+          "value": ".5vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 261
+            }
+          ]
+        },
+        {
+          "value": "1vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 265
+            }
+          ]
+        },
+        {
+          "value": "3.8462vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 279
+            }
+          ]
+        },
+        {
+          "value": "2vw 4vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 327
+            }
+          ]
+        },
+        {
+          "value": "0 0 1.2821vw 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 413
+            }
+          ]
+        },
+        {
+          "value": "1rem 4vw 1.25rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 425
+            }
+          ]
+        },
+        {
+          "value": "0.2564vw 0.7692vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 473
+            }
+          ]
+        },
+        {
+          "value": "15px 35px 16px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 564
+            }
+          ]
+        },
+        {
+          "value": "16px 12px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 581
+            }
+          ]
+        },
+        {
+          "value": "0 0 20px 4px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 621
+            }
+          ]
+        },
+        {
+          "value": "150svh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 634
+            }
+          ]
+        },
+        {
+          "value": "20svh 4vw 100svh",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 640
+            }
+          ]
+        },
+        {
+          "value": "25vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 651
+            }
+          ]
+        },
+        {
+          "value": "1.25rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 661
+            }
+          ]
+        },
+        {
+          "value": "1.2821vw 0 1.9231vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 723
+            }
+          ]
+        },
+        {
+          "value": "65vh 5vw",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 733
+            }
+          ]
+        },
+        {
+          "value": "2.5rem",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 741
+            }
+          ]
+        },
+        {
+          "value": "2vw 20px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 765
+            }
+          ]
+        },
+        {
+          "value": "12px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 770
+            }
+          ]
+        },
+        {
+          "value": "120px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 778
+            }
+          ]
+        },
+        {
+          "value": "0 0 12px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 781
+            }
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 783
+            }
+          ]
+        },
+        {
+          "value": "2px 8px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 788
+            }
+          ]
+        },
+        {
+          "value": "0 0 12px 12px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 788
+            }
+          ]
+        },
+        {
+          "value": "32px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 789
+            }
+          ]
+        },
+        {
+          "value": "4px",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 791
+            }
+          ]
+        },
+        {
+          "value": "20px 0",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 795
+            }
+          ]
+        }
+      ],
+      "breakpoints": [
+        {
+          "value": "1024px",
+          "count": 3,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 603
+            },
+            {
+              "file": "test2.css",
+              "line": 729
+            },
+            {
+              "file": "test2.css",
+              "line": 764
+            }
+          ]
+        },
+        {
+          "value": "1025px",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 599
+            },
+            {
+              "file": "test2.css",
+              "line": 760
+            }
+          ]
+        }
+      ],
+      "families": [
+        {
+          "value": "'Spectral'",
+          "count": 10,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 18
+            },
+            {
+              "file": "base.css",
+              "line": 25
+            },
+            {
+              "file": "base.css",
+              "line": 32
+            }
+          ]
+        },
+        {
+          "value": "'Charka'",
+          "count": 7,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 89
+            },
+            {
+              "file": "base.css",
+              "line": 96
+            },
+            {
+              "file": "base.css",
+              "line": 103
+            }
+          ]
+        },
+        {
+          "value": "'Pretendard'",
+          "count": 4,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 124
+            },
+            {
+              "file": "base.css",
+              "line": 525
+            },
+            {
+              "file": "test2.css",
+              "line": 552
+            }
+          ]
+        },
+        {
+          "value": "'Charka', sans-serif",
+          "count": 2,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 125
+            },
+            {
+              "file": "test2.css",
+              "line": 393
+            }
+          ]
+        },
+        {
+          "value": "'Pretendard', sans-serif",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 5
+            },
+            {
+              "file": "test2.css",
+              "line": 266
+            }
+          ]
+        },
+        {
+          "value": "Inconsolata, monospace",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 205
+            },
+            {
+              "file": "test2.css",
+              "line": 438
+            }
+          ]
+        },
+        {
+          "value": "Spacegrotesk, sans-serif",
+          "count": 2,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 363
+            },
+            {
+              "file": "test2.css",
+              "line": 528
+            }
+          ]
+        },
+        {
+          "value": "'Boska'",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 2
+            }
+          ]
+        },
+        {
+          "value": "'Boska-regular'",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 7
+            }
+          ]
+        },
+        {
+          "value": "'Boska-italic'",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 12
+            }
+          ]
+        },
+        {
+          "value": "\"moret-variable\", serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base.css",
+              "line": 153
+            }
+          ]
+        },
+        {
+          "value": "\"the-seasons\", serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "base2.css",
+              "line": 180
+            }
+          ]
+        },
+        {
+          "value": "\"Montserrat\", serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 60
+            }
+          ]
+        },
+        {
+          "value": "Arial, sans-serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 166
+            }
+          ]
+        },
+        {
+          "value": "Lato, sans-serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 182
+            }
+          ]
+        },
+        {
+          "value": "'Boska', serif",
+          "count": 1,
+          "examples": [
+            {
+              "file": "test2.css",
+              "line": 644
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

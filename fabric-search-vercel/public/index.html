@@ -1,0 +1,33 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>차트함 원단 검색</title><link rel="stylesheet" href="style.css"></head><body>
+
+<div class="wrap">
+  <form id="f" class="row">
+    <input id="q" type="text" autocomplete="off" aria-label="검색어" maxlength="500" placeholder="예: 100g 이하 발수 원단">
+    <button class="primary" type="submit" id="aiBtn">AI 추천</button>
+    <button type="button" id="reset">초기화</button>
+  </form>
+  <p id="aiStatus" role="status">서버 설정 확인 중…</p>
+  <div id="aiOut" class="box" role="status" aria-live="polite" hidden></div>
+  <div id="count"></div>
+  <div class="tablebox">
+    <table id="tbl">
+      <thead><tr>
+        <th class="w-box">차트함 번호</th>
+        <th class="w-cat">소분류</th>
+        <th class="w-pos">순서</th>
+        <th class="w-art">ART NO.</th>
+        <th class="w-item">ITEM</th>
+        <th class="w-comp">COMPOSITION</th>
+        <th class="w-desc">DESCRIPTION</th>
+        <th class="w-ww">WIDTH, WEIGHT</th>
+        <th class="w-fin">FINISH</th>
+        <th class="w-orig">ORIGINAL NO.</th>
+        <th class="w-cb">칼라북 유무</th>
+      </tr></thead>
+      <tbody id="tb"></tbody>
+    </table>
+  </div>
+</div>
+
+<script type="module" src="/app.js"></script>
+</body></html>

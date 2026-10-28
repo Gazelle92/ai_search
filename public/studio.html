@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efeee8">
+  <meta name="description" content="Good Measure. 충분히 생각하고, 제대로 만드는 웹 디자인과 개발.">
+  <title>Good Measure — Good ideas. Better made.</title>
+  <link rel="stylesheet" href="/design-tokens.css"><link rel="stylesheet" href="/studio.css"><link rel="stylesheet" href="/motion.css"><script type="module" src="/studio.js"></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="header">
+    <a class="wordmark" href="#" aria-label="Good Measure 홈">good measure</a>
+    <nav aria-label="메인 메뉴"><a href="#work">Work <sup>04</sup></a><a href="#studio">Studio</a><a href="#services">Services</a></nav>
+    <button data-roll data-magnetic class="contact-btn" data-contact>Let’s talk <span>↗</span></button>
+    <button class="menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="메뉴 열기">☰</button>
+  </header>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="모바일 메뉴" hidden><a href="#work">Work</a><a href="#studio">Studio</a><a href="#services">Services</a><button data-contact>Let’s talk ↗</button></nav>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="eyebrow hero-top"><span><i class="live-dot"></i> Independent design & development</span><span>SEOUL, KR <span id="seoul-time">09:00:00</span></span></div>
+      <div class="hero-title-wrap">
+        <h1 data-motion="words" id="hero-title"><span>GOOD IDEAS.</span><span><em>BETTER MADE.</em></span></h1>
+        <div class="hero-art" aria-hidden="true"><img src="/concept/chrome.svg" alt=""><span class="art-caption">Nothing arbitrary.<br>Every detail considered.</span></div>
+        <span class="hero-note">A clear purpose.<br>A considered outcome.</span>
+      </div>
+      <div class="hero-bottom"><div class="hero-index"><span>CLEAR INTENT.</span><span>CAREFUL DECISIONS.</span><span>SOLID EXECUTION.</span></div><p data-motion="words">충분히 생각하고, 제대로 만듭니다.<br>보기 좋은 이유와 쓰기 좋은 구조를 함께 설계합니다.</p><a data-magnetic href="#work" class="round-link" aria-label="프로젝트 보기"><span>Explore<br>the ideas</span><b>↙</b></a></div>
+      <span class="vertical-note">SCROLL TO FEEL THE DIFFERENCE ↓</span>
+    </section>
+    <div class="ticker" aria-hidden="true"><div>GOOD THINKING <span>✳</span> CLEAR PURPOSE <span>✳</span> BETTER MAKING <span>✳</span> GOOD THINKING <span>✳</span> CLEAR PURPOSE <span>✳</span> BETTER MAKING <span>✳</span></div></div>
+    <section class="work section-dark" id="work" aria-labelledby="work-title">
+      <div class="section-top" data-motion="rise"><span class="eyebrow">01 / REFERENCE PROJECTS</span><span class="eyebrow">A STUDY OF FORM, FUNCTION & DETAIL.</span></div>
+      <div class="section-heading"><h2 data-motion="words" id="work-title">Form with purpose.<br>Made to <span class="serif">work.</span></h2><div class="filters" aria-label="프로젝트 분류"><button class="active" data-filter="all" aria-pressed="true">All <sup>04</sup></button><button data-filter="website" aria-pressed="false">Website</button><button data-filter="commerce" aria-pressed="false">Commerce</button></div></div>
+      <p class="reference-note">디자인 방향을 보여주기 위한 기존 Hummman 공개 사례입니다. Good Measure의 수주 실적으로 표기하지 않습니다.</p>
+      <div class="work-grid">
+        <a class="project project-a" data-category="website" href="https://www.hummman.com/works/1" target="_blank" rel="noopener noreferrer"><div class="project-image" data-motion="reveal"><img src="/concept/ttt.jpg" alt="Think Thing Thank 프로젝트의 흑백 그래픽" loading="lazy"><span class="project-open">View project ↗</span><span class="project-tag">CREATIVE GROUP</span></div><div class="project-meta" data-motion="rise"><h3 data-motion="words">Think Thing Thank</h3><span>UX/UI · Development <b>↗</b></span></div></a>
+        <a class="project project-b" data-category="website" href="https://www.hummman.com/works/2" target="_blank" rel="noopener noreferrer"><div class="project-image" data-motion="reveal"><img src="/concept/mucl.jpg" alt="MUCL의 생동감 있는 웹사이트 비주얼" loading="lazy"><span class="project-open">View project ↗</span><span class="project-tag">MUSIC & CULTURE</span></div><div class="project-meta" data-motion="rise"><h3 data-motion="words">MUCL</h3><span>UX/UI · Development <b>↗</b></span></div></a>
+        <a class="project project-c" data-category="website" href="https://www.hummman.com/works/4" target="_blank" rel="noopener noreferrer"><div class="project-image" data-motion="reveal"><img src="/concept/cosmax.jpg" alt="Cosmax+ 디지털 플랫폼 프로젝트" loading="lazy"><span class="project-open">View project ↗</span><span class="project-tag">BEAUTY & TECHNOLOGY</span></div><div class="project-meta" data-motion="rise"><h3 data-motion="words">Cosmax+</h3><span>UX/UI/GUI · Front-end <b>↗</b></span></div></a>
+        <a class="project project-d" data-category="commerce" href="https://www.hummman.com/works/28" target="_blank" rel="noopener noreferrer"><div class="project-image" data-motion="reveal"><img src="/concept/tsf.jpg" alt="Two Slash Four 뷰티 브랜드 커머스 프로젝트" loading="lazy"><span class="project-open">View project ↗</span><span class="project-tag">BEAUTY & COMMERCE</span></div><div class="project-meta" data-motion="rise"><h3 data-motion="words">Two Slash Four</h3><span>UI · Development <b>↗</b></span></div></a>
+      </div>
+      <div class="work-end"><p>당신의 프로젝트에는 어떤 해법이 필요할까요?</p><button class="text-link" data-contact>함께 방향 정하기 <span>↗</span></button></div>
+    </section>
+    <section class="studio" id="studio" aria-labelledby="studio-title">
+      <div class="section-top" data-motion="rise"><span class="eyebrow">02 / OUR POINT OF VIEW</span><span class="eyebrow">GOOD WORK STARTS WITH GOOD JUDGEMENT.</span></div>
+      <div class="studio-layout"><div class="studio-graphic" aria-hidden="true"><div class="loop loop-one"></div><div class="loop loop-two"></div><span>gm.</span><span class="graphic-label">THINK IT THROUGH.<br>MAKE IT COUNT.</span><span class="pink-sticker">well<br><i>considered</i></span></div><div class="studio-copy"><h2 data-motion="words" id="studio-title">Nothing<br>by chance.<br><span class="serif">Everything</span><br>for a reason.</h2><p data-motion="words">왜 이 글자 크기인지, 왜 이 간격인지.<br>작은 선택에도 분명한 이유가 있어야 합니다.<br>Good Measure는 그 이유부터 함께 찾습니다.</p><p class="studio-small" data-motion="words">기획과 디자인, 개발을 하나의 흐름으로 다룹니다.<br>충분한 대화, 명확한 기준, 끝까지 다듬는 태도로.</p><a href="#services" class="text-link">The way we work <span>↘</span></a></div></div>
+    </section>
+    <section class="services" id="services" aria-labelledby="services-title"><div class="section-top" data-motion="rise"><span class="eyebrow">03 / WHAT WE BRING</span><span class="eyebrow">ONE STANDARD, FROM IDEA TO DELIVERY.</span></div><div class="services-header"><h2 data-motion="words" id="services-title">A clear plan.<br><span class="serif">A better result.</span></h2><p data-motion="words">핵심을 정하고, 경험을 설계하고, 구현합니다.<br>각 단계의 판단이 다음 단계의 기준이 됩니다.</p></div>
+      <div class="service-list">
+        <details open><summary><span class="service-num">01</span><h3 data-motion="words">Purpose & Plan</h3><span class="service-ko">목표 정의 · 구조 설계</span><span class="service-toggle">+</span></summary><div class="service-content"><p data-motion="words">필요한 화면보다 해결할 문제를 먼저 정합니다.<br>목표와 사용자, 콘텐츠의 우선순위를 명확하게 만듭니다.</p><div><span>Digital strategy</span><span>UX research</span><span>Content architecture</span></div></div></details>
+        <details><summary><span class="service-num">02</span><h3 data-motion="words">Form & Experience</h3><span class="service-ko">UI/UX · 인터랙션 디자인</span><span class="service-toggle">+</span></summary><div class="service-content"><p data-motion="words">브랜드의 개성을 일관된 화면 규칙으로 만듭니다.<br>글자, 여백, 움직임이 같은 방향을 말하도록 설계합니다.</p><div><span>UX/UI design</span><span>Art direction</span><span>Motion & interaction</span></div></div></details>
+        <details><summary><span class="service-num">03</span><h3 data-motion="words">Build & Refine</h3><span class="service-ko">웹 개발 · 커머스 구축</span><span class="service-toggle">+</span></summary><div class="service-content"><p data-motion="words">설계한 기준을 실제 화면에 정확하게 옮깁니다.<br>다양한 화면 크기와 사용 흐름을 확인하며 완성도를 높입니다.</p><div><span>Creative development</span><span>E-commerce</span><span>CMS integration</span></div></div></details>
+      </div>
+    </section>
+    <section class="contact" id="contact"><div class="section-top" data-motion="rise"><span class="eyebrow">LET’S FIND THE RIGHT START.</span><span class="eyebrow">YOUR NEXT STEP, WELL CONSIDERED.</span></div><button data-motion="words" class="contact-title" data-contact>LET’S MAKE<br><span class="serif">GOOD WORK.</span><span class="contact-arrow">↗</span></button><div class="contact-bottom"><p data-motion="words">무엇이 필요한지부터 차근차근.<br>프로젝트의 기준을 함께 세워봅시다.</p><button data-roll data-magnetic class="pill-btn" data-contact>프로젝트 이야기하기 <span>↗</span></button></div></section>
+  </main>
+  <footer><a class="wordmark" href="#">good measure</a><p>Good ideas. Better made.</p><div><a href="/design-system.html">Design standards ↗</a><span>© 2026 GOOD MEASURE</span><button type="button" class="motion-toggle" data-motion-toggle aria-pressed="true">Motion: on</button><span class="concept-note">WEBSITE CONCEPT / DESIGN STUDY</span></div></footer>
+  <dialog id="contact-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="닫기">×</button><span class="eyebrow">FIRST, A GOOD CONVERSATION.</span><h2 data-motion="words" id="dialog-title">Start with<br>the <span class="serif">right question.</span></h2><form id="brief-form"><label for="brief">어떤 프로젝트를 생각하고 계신가요?</label><textarea id="brief" required rows="4" maxlength="1000" placeholder="어떤 문제를 해결하고 싶은지, 누가 사용하는지, 무엇이 달라져야 하는지 알려주세요."></textarea><button data-roll data-magnetic class="pill-btn" type="submit">프로젝트 브리프 만들기 ↗</button><p class="form-note">디자인 시안입니다. 입력 내용은 외부로 전송되지 않습니다.</p></form><div id="brief-result" hidden><p>프로젝트의 첫 번째 문장이 준비됐어요.</p><p id="brief-preview"></p><button data-roll data-magnetic class="pill-btn" id="copy-brief">브리프 복사하기 ↗</button><p id="copy-status" role="status"></p></div></dialog>
+</body>
+</html>
